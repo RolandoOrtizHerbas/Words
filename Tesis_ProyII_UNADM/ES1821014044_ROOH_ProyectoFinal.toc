@@ -1,0 +1,41 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Tabla de contenido}{\es@scroman {i}}{Doc-Start}%
+\contentsline {chapter}{Índice de Figuras}{\es@scroman {iii}}{chapter*.1}%
+\contentsline {chapter}{Índice de Tablas}{\es@scroman {iv}}{chapter*.2}%
+\contentsline {chapter}{{}Dedicatoria}{\es@scroman {v}}{chapter*.3}%
+\contentsline {chapter}{{}Agradecimientos}{\es@scroman {vi}}{chapter*.4}%
+\contentsline {chapter}{{}Resumen}{\es@scroman {vii}}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Justificación}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objetivos}{2}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivo general}{2}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Objetivos específicos}{2}{subsection.1.3.2}%
+\contentsline {chapter}{\numberline {2}Marco investigativo}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Definición de conjunto de datos o dataset}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Aprendizaje supervisado}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Aprendizaje no supervisado}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Clasificación}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Agrupamiento o Clustering}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Regresión}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Reducción de Dimensionalidad}{7}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Función logística}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Estimador de máxima verosimilitud}{11}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Metodología}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Limpieza del dataset}{16}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Eliminar columnas que contienen un solo valor}{16}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2} Considerar Columnas que Tienen Muy Pocos Valores}{18}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3} Eliminar Columnas que Tienen Baja Varianza}{18}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4} Identificar Filas que Contienen Datos Duplicados}{18}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5} Eliminar Filas que Contienen Datos Duplicados}{18}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Analisis exploratorio del dataset}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Transformación del dataset}{18}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Reducción de dimensionalidad}{18}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}SVD}{18}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}PCA}{18}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Partición del dataset}{18}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Partición del dataset}{18}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Resultados}{19}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Contribuciones, conclusiones y trabajos futuros}{20}{chapter.6}%
