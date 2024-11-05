@@ -1,0 +1,126 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fancybox}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{eso-pic}
+
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\renewcommand{\rmdefault}{ptm}
+
+
+
+\pagenumbering{gobble}
+\addtolength{\voffset}{0mm} \addtolength{\hoffset}{-1mm}
+\setlength{\textwidth}{18.9cm} \setlength{\textheight}{21.9cm}
+\setlength{\evensidemargin}{-1cm} \setlength{\oddsidemargin}{-1cm}
+\setlength{\topmargin}{0.2cm} \setlength{\headsep}{0.2cm}
+\setlength{\headheight}{0.5cm} \setlength{\marginparsep}{1mm}
+\setlength{\marginparwidth}{.5cm} \setlength{\footskip}{.3cm}
+
+\newcommand\BackgroundPic{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=11in,width=8.5in]{PortadaBase}
+}}}
+\newcommand{\Pdivision}{División de Ciencias Exactas, Ingeniería y Tecnología}
+% Título de la tesis
+ 
+\newcommand{\Ptitle}{Modelo de aprendizaje automático para estudiar el riesgo en créditos automotrices}  
+% Autor
+\newcommand{\Pauthor}{Rolando Ortiz Herbas \\
+                        Matricula: ES1821014044}
+% Grado
+\newcommand{\Pdegree}{Licenciado en Matemáticas}
+% Director 1
+\newcommand{\PadviserA}{Asesor Interno: Dra. María Del Alba Pacheco Blas}
+% Director 2
+\newcommand{\PadviserB}{Asesor Externo: Dra. María Victoria Chávez Hernández}
+
+% Presidente
+\newcommand{\PjuryA}{Prof. Manuel López}
+% Secretario
+\newcommand{\PjuryB}{Marco Antonio Olivera Villa}
+% Vocal
+\newcommand{\PjuryC}{María Elena Pacheco Córdova}
+% Agregar más revisores en caso de ser necesario
+%\newcommand{\PjuryD}{Dr. Ping}
+%\newcommand{\PjuryE}{Dr. Pong}
+
+% Cuerpo Académico
+\newcommand{\PcuerpoAcademico}{Inteligencia Artificial}
+
+% LGAC
+\newcommand{\PlineaGAC}{Ciencia de Datos y Optimización}
+
+% Fecha
+\newcommand{\Pmonth}{Agosto}
+\newcommand{\Pyear}{2024}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PRIMERA PÁGINA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddToShipoutPicture{\BackgroundPic}
+
+%\begin{minipage}[b][\textheight][c]{17.3cm}
+
+%\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SEGUNDA PÁGINA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\AddToShipoutPicture{\BackgroundPic}
+
+\begin{minipage}[b][\textheight][c]{17.3cm}
+  \begin{center}
+    \Large
+    \vspace{2cm}
+    {\huge\bfseries Universidad Abierta y a Distancia de México \par}
+    \vspace{0.2cm}
+    {\Large\bfseries\Pdivision\par}
+      \vspace{0.2cm}
+    
+    \vspace{1cm}
+%     \vspace{\stretch{3}}
+      {Proyecto Terminal \par}
+      \Large
+%       \vspace{0.2cm}
+      {\LARGE\bfseries\Ptitle\par}
+      \vspace{5mm}
+      Que presenta\\
+      
+      {\bfseries \bfseries\Pauthor\par}
+      \vspace{5mm}
+      Para obtener el grado de
+      {\bfseries \par \Pdegree \par}
+      \vspace{5mm}
+      % Modificar de acuerdo a su caso particular
+      %{Directora\par}
+
+      {\bfseries\PadviserA\par}
+      {\bfseries\PadviserB\par}
+      \vspace{1cm}
+      
+    \begin{flushleft}
+      \large{ \begin{tabular}{p{3.5cm} l l}
+        \raggedleft{Tribunal:} & {\bfseries\PjuryA\par}  \\
+        & {\bfseries\PjuryB\par}  \\
+        & {\bfseries\PjuryC\par}       \\
+        % Agregar vocales en caso de ser necesario
+        %& {\bfseries\PjuryD\par} & Vocal      \\
+        %& {\bfseries\PjuryE\par} & Vocal      \\
+      \end{tabular}}
+    \end{flushleft}
+     \vspace{1cm}
+    
+    \vspace{1cm}
+    Ciudad de Mexíco, México \hspace{4.5cm} \Pmonth \hspace{0.2cm} \Pyear
+    \end{center}
+\end{minipage}
+
+\end{document}

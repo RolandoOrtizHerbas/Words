@@ -1,0 +1,120 @@
+\documentclass[12pt,spanish,oneside,letterpaper]{book}
+%\usepackage{uarial}
+%\renewcommand{\familydefault}{\sfdefault}
+% Configuración de idioma y codificación de caracteres
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{colortbl}
+% Números de línea para facilitar la revisión
+%\usepackage{lineno}
+%\linenumbers
+
+\usepackage[table]{xcolor} % Paquete para color en tablas
+\usepackage{colortbl} % Para colorear celdas individuales
+
+\definecolor{lightgray}{gray}{0.9} % Gris claro
+\definecolor{mediumgray}{gray}{0.8} % Gris medio
+\definecolor{softblue}{RGB}{220, 230, 241} % Azul suave
+
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+% \usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage[algo2e,algoruled,lined,linesnumbered,spanish]{algorithm2e}
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb,amsfonts,latexsym,cancel}
+\usepackage{float}
+\graphicspath{Imagenes/}
+% Punto en lugar de coma para separar decimales
+\spanishdecimal{.}
+% Configuración del pie de Figuras y Tablas
+\captionsetup{font=footnotesize,labelfont=bf,labelsep=period}
+%\captionsetup[table]{position=top}
+
+% Encabezado
+\pagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{\nouppercase\leftmark}
+
+\usepackage{subfigure,graphicx}
+
+% Nombres de Índices
+\renewcommand{\contentsname}{Tabla de contenido}
+\renewcommand{\listfigurename}{Índice de ilustraciones}
+\renewcommand{\listtablename}{Índice de tablas}
+\usepackage[letterpaper, margin=1.25in]{geometry}
+
+\begin{document}
+% Portada en un archivo externo en formato PDF
+\includepdf[pages=-]{Portada}
+
+% Hoja en blanco
+% \leavevmode\thispagestyle{empty}\newpage
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+\addcontentsline{toc}{chapter}{Tabla de contenido}
+\tableofcontents
+\newpage
+\addcontentsline{toc}{chapter}{Índice de Figuras}
+\listoffigures
+\newpage
+\addcontentsline{toc}{chapter}{Índice de Tablas}
+\listoftables
+\newpage
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+
+%*****************************************************************************%
+%***************************** C A P Í T U L O S *****************************%
+%*****************************************************************************%
+% Obligatorio
+\include{capitulos/Dedicatoria}
+% Obligatorio
+\include{capitulos/Agradecimientos}
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+% Obligatorio
+\include{capitulos/Resumen}
+
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+% Obligatorio
+\include{capitulos/Cap1-Introduccion}
+% Obligatorio.
+\include{capitulos/Cap2-Marco-Investigativo}
+% Obigatorio. 
+\include{capitulos/Cap3-Marco-Teorico}
+% Opcional. La contribución del estudiante podría ocupar más de un capítulo, en 
+% cuyo caso los capítulos siguientes se reenumerarán.
+\include{capitulos/Cap4-Metodologia}
+% Obligatorio
+\include{capitulos/Cap5-Resultados}
+% Obligatorio
+\include{capitulos/Cap6-Conclusiones}
+
+% Aqui vienen las Referencias formato Apa7
+%\bibliographystyle{apalike}
+%\bibliographystyle{Referencias/MisReferencias.bib}
+%
+
+\begin{thebibliography}{99}
+  \bibitem{Bagnato} J.I. Bagnato. Aprende Machine Learning (Teoría + Práctica Python) . Lean Pub. 2020.
+  \bibitem{Brownlee} J. Brownlee. Master Machine Learning Algorithms. eBook: Machine Learning Mastery. 2017.
+  \bibitem{Raschka} Sebastian. Raschka, Python Machine Learning , México , Macrombo S.A., 2020.
+  \bibitem{Vladi} Vladimirovna, O., y Gutierrez Gonzalez, E. ,Probabilidad y Estadística: Aplicaciones a la Ingeniería y Ciencias. Cdmx: Grupo Editorial Patria,2016.
+  \bibitem{Gilb} Gilbert, S. , Álgebra Lineal en ciencia de datos. Wellesley-Cambridge Press, US, 2022.
+  \bibitem{Kle} Klein, B. ,Data Analysis Numpy Matplotlib and Pandas, Python-course,EU, 2021.
+  \bibitem{Gilbert} Gilbert, S. ,Linear Algebra for Everyone ,Wellesley-Cambrige Press MIT,US, 2020.
+  \bibitem{Arang} Arangala C. ,Linear Algebra with Machine Lerning and data ,CRC Press,US, 2023.
+  \bibitem{Simon} Simon R. Girolami M. , A First Course in Machine Learning ,CRC Press,US, 2017.
+  \bibitem{Brown1} Bronwnle J. , Data Preparation for Machine Learning - Data Cleaning, Feature Selection, and Data Transforms in Python,eBook: Machine Learning Mastery , 2020
+  \bibitem{Brown7} Bronwnle J. , Machine Learning Algorithms From Scratch With Python ,eBook: Machine Learning Mastery , 2020
+  \bibitem{Cuevas} Cuevas E. Avalos O. Diaz P. , Introducción al Machine Learning con MatLab, Macrombo, México, 2022
+\end{thebibliography}
+\end{document}
