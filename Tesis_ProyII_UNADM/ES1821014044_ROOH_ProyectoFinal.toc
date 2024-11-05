@@ -25,17 +25,16 @@
 \contentsline {chapter}{\numberline {4}Metodología}{14}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Metodología}{14}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Limpieza del dataset}{16}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Eliminar columnas que contienen un solo valor}{16}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2} Considerar Columnas que Tienen Muy Pocos Valores}{18}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3} Eliminar Columnas que Tienen Baja Varianza}{18}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4} Identificar Filas que Contienen Datos Duplicados}{18}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5} Eliminar Filas que Contienen Datos Duplicados}{18}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Analisis exploratorio del dataset}{18}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Transformación del dataset}{18}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Reducción de dimensionalidad}{18}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}SVD}{18}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}PCA}{18}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Partición del dataset}{18}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Partición del dataset}{18}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Resultados}{19}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Contribuciones, conclusiones y trabajos futuros}{20}{chapter.6}%
+\contentsline {subsection}{\numberline {4.2.1}Eliminar columnas que contienen un solo valor}{19}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2} Considerar y/o eliminar columnas que tienen muy pocos valores}{19}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3} Identificar y eliminar filas duplicadas}{20}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4} Eliminación de valores extremos (outliers) en caso de variables numéricas}{20}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Analisis exploratorio del dataset}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Transformación del dataset}{21}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Reducción de dimensionalidad}{21}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}SVD}{21}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}PCA}{21}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Partición del dataset}{21}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Partición del dataset}{21}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Resultados}{22}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Contribuciones, conclusiones y trabajos futuros}{23}{chapter.6}%
