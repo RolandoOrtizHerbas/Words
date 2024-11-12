@@ -12,7 +12,18 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Metodología}}{14}{figure.caption.13}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Datos de los clientes (Bloque 1)}}{15}{figure.caption.14}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Datos de los clientes (Bloque 2)}}{16}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Valores fuera de rango o outliers}}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Partición del dataset}}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Conjunto de datos o dataset leido}}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Valores fuera de rango o outliers}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Niveles o valores que toma una variables categórica}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Grafica de ocupación del cliente vs frecuencia}}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Grafica de estado de contrato vs frecuencia}}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Grafica de producto vs frecuencia}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Estadística básica para variables numéricas}}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Correlaciones entre variables numéricas}}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Dato en crudo}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces StandardScaler}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Transformación de datos en crudo a StandardScaler}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Transformación de una variable categórica a OrdinalEncoder}}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Partición del dataset}}{30}{figure.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
